@@ -21,7 +21,8 @@ Facultad de Ingeniería
 Universidad Nacional de Colombia Sede Bogotá
 
 Para cumplir satisfactoriamente los requerimientos y tareas propuestas, se siguió el siguiente proceso:
-###1) Configuración de entradas y salidas
+
+### 1) Configuración de entradas y salidas
 
 Siguiendo la guía, se hizo la conexión del IRB140 con el tablero de entradas que disponía el controlador. Estas se configuraron en RobotStudio de la siguiente manera:
 1. Se selecciona la opción _I/O System_, que se encuentra en el controlador.
@@ -34,6 +35,20 @@ Se le asigna un nombre a la señal y se configura como _Digital Input_ (Entrada 
 4. Se reinicia el controlador.
 5. Se configura la simulación para entradas y salidas
 ![image](https://user-images.githubusercontent.com/112737454/194687733-a033029e-1d01-44d5-a252-872217ca87a1.png)
-6. Al seleccionar la simulación, se abre un panel con las entradas y salidas creadas en el paso 4.
+6. Al seleccionar la simulación, se abre un panel con las entradas y salidas creadas en el paso 2 y 3. Se hace la configuración de las trayectorias creadas con las entredas. Se sincroniza el simulador con el módulo RAPID. Finalmente se hace la simulación.
+
+[![Watch the video](https://user-images.githubusercontent.com/112737454/194688205-2ae0fe15-c79b-4d1b-8bcb-7df7d76300d5.png)](https://www.youtube.com/watch?v=bMmIV-oO5IU)
+
+### 2) Puesta en marcha
+Se subió el código al robot IRB140 del laboratorio, se ejecutó la secuencia y se observó el siguiente resultado:
+
+[![Watch the video](https://user-images.githubusercontent.com/112737454/194688703-223c5149-daf2-4678-8877-68e0fa03d440.png)](https://www.youtube.com/watch?v=93VOe-NtV4s)
+
+En el siguiente video se observa el funcionamiento del panel del controlador:
+
+[![Watch the video](https://user-images.githubusercontent.com/112737454/194688782-b08aed6e-91de-4c95-a3cb-ebabbdf1b756.png)](https://www.youtube.com/watch?v=Il_TQljtz2A)
+
+Finalmente, se obtiene:
+
 
 ![image](https://user-images.githubusercontent.com/112737454/194687016-597f4887-6073-445d-a736-a2945d1b462b.png)
